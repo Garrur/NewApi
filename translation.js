@@ -42,7 +42,7 @@ app.post('/api/translate', async (req, res) => {
 
 // default route 
 app.use((req, res) => {
-    res.status(404).json({ error: 'Route not found.' });
+    res.status(404).json({ msg:"Go To Postman url/api/translate" });
 });
 
 // Start the server
